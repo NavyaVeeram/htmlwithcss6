@@ -1,0 +1,57 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>navigation </title>
+<style>
+.dd{
+position:relative;
+display:inline-block;
+}
+.dd-btn{
+padding:12px;
+text-align:center;
+background:skyblue;
+border:none;
+width:350px;
+color:crimson;
+}
+.dd-content{
+position:absolute;
+text-align:center;
+display:none;
+width:100%;
+box-shadow:0 19px 36px rgba(0,0,0,30),
+                    0 12px 34px rgba(0,0,0,0.3);
+}
+.dd:hover > .dd-content{
+display:block;
+}
+.dd-content >a{
+display:block;
+padding:12px;
+text-decoration:none;
+color:pink;
+}
+.dd-content >a:hover{
+background:deeppink;
+
+}
+
+
+</style>
+</head>
+<body>
+<div class="dd">
+<button class="dd-btn">courses</button>
+  <div class="dd-content">
+
+<a href="">HOME</a>
+<a href="">ABOUT</a>
+ <a href="">LOGIN</a>
+ <a href="">REGISTER</a>
+
+  </div></div>
+</body>
+</head>
+</html>
